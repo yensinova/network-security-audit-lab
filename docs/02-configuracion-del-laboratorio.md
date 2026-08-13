@@ -9,9 +9,7 @@
 VMnet2 se configuró como una red Host-only para mantener el laboratorio aislado del equipo anfitrión, la red local e Internet.
 
 
-
 ![Configuración Host-only de VMnet2](../evidence/setup/01-vmnet2-host-only.png)
-
 
 
 \### Adaptador de Kali Linux
