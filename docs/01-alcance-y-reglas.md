@@ -92,7 +92,7 @@ La práctica finaliza al completar el reconocimiento, la enumeración, las prueb
 
 
 
-\- \*\*Responsable del laboratorio:\*\* \Yensi Jesús González Nova
+\- \*\*Responsable del laboratorio:\*\* Yensi Jesús González Nova
 
 \- \*\*Fecha de creación:\*\* 2026-08-13
 
