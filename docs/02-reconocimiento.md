@@ -26,11 +26,9 @@
 
 &#x20;  ## 3. Evidencias
 
-&#x20;  \* \[Captura de tráfico (PCAP)](../evidence/pcap/02-day2-discovery.pcap)
+&#x20;  * [Captura de tráfico (PCAP)](../evidence/pcap/02-day2-discovery.pcap)
 
-&#x20;  \* \[Resultados Nmap (XML/NMAP)](../evidence/nmap/)
+&#x20;  * [Resultados Nmap (XML/NMAP)](../evidence/nmap/)
 
-&#x20;  \* \[Análisis Wireshark (Screenshots)](../evidence/screenshots/)
+&#x20;  * [Análisis Wireshark (Screenshots)](../evidence/screenshots/)
 
-&#x20;  \* [Figura 1: Wireshark, filtro "arp" – barrido ARP "Who has 10.99.99.x? Tell 10.99.99.10" desde Kali (10.99.99.10)](../evidence/screenshots/02-day2-wireshark-arp-sweep.png)
-&#x20;  \* [Figura 2: Wireshark, filtro "icmp" – Echo (ping) reply de Metasploitable (10.99.99.20) hacia Kali (10.99.99.10)](../evidence/screenshots/03-day2-wireshark-icmp-reply.png)
