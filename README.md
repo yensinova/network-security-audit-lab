@@ -1,76 +1,63 @@
-# \# Network Security Audit Lab
+# 🛡️ Auditoría de Seguridad en Laboratorio de Red
 
-# 
+Proyecto de pentesting ético realizado en un **laboratorio virtual aislado**,
+aplicando una metodología completa de auditoría: reconocimiento, enumeración,
+detección de vulnerabilidades, explotación controlada y reporting.
 
-# Laboratorio práctico y autorizado de auditoría de seguridad en una red virtual aislada.
+> ⚠️ **Aviso ético:** Este proyecto se realizó exclusivamente sobre máquinas
+> virtuales locales y autorizadas. No se atacaron sistemas reales ni de terceros.
 
-# 
+## 🎯 Objetivo
 
-# \## Objetivo
+Identificar servicios expuestos, vulnerabilidades críticas y validar su
+explotación de forma controlada, generando un informe técnico con
+recomendaciones de remediación.
 
-# 
+## 🧪 Entorno del Laboratorio
 
-# Practicar las fases iniciales de una auditoría de red:
+| Componente | Detalle |
+|-----------|---------|
+| Hipervisor | VMware Workstation |
+| Atacante | Kali Linux |
+| Objetivo | Metasploitable 2 |
+| Red | Aislada (host-only) `10.99.99.0/24` |
 
-# 
+## 🛠️ Herramientas Utilizadas
 
-# \- Definición de alcance y reglas de enfrentamiento
+- **Nmap** — Descubrimiento, enumeración y NSE scripts
+- **Wireshark / tcpdump** — Captura y análisis de tráfico (PCAP)
+- **Metasploit Framework** — Explotación controlada
+- **Netcat** — Validación manual de servicios
+- **Pandoc** — Generación automatizada de informes PDF
 
-# \- Descubrimiento y enumeración de servicios
+## 📋 Metodología Aplicada
 
-# \- Identificación y validación controlada de vulnerabilidades
+1. **Reconocimiento** — Descubrimiento de activos y captura de tráfico
+2. **Enumeración** — Servicios, versiones y scripts NSE
+3. **Detección de vulnerabilidades** — Identificación de CVEs
+4. **Validación y explotación** — Confirmación controlada de hallazgos
+5. **Reporting** — Informe técnico y remediación
 
-# \- Documentación de evidencias y elaboración de informes
+## 🔍 Hallazgos Principales
 
-# 
+| ID | Servicio | Vulnerabilidad | Severidad |
+|----|----------|----------------|-----------|
+| VUL-01 | FTP | Backdoor vsftpd 2.3.4 | 🔴 Crítica |
+| VUL-02 | SMB | Samba usermap_script | 🔴 Crítica |
 
-# \## Entorno
+📄 **Informe completo:** [reports/informe-final.pdf](reports/informe-final.pdf)
 
-# 
+## 📁 Estructura del Repositorio
 
-# | Elemento | Configuración |
+- `docs/` — Documentación de alcance, metodología y hallazgos
+- `evidence/` — Evidencias sanitizadas (Nmap, capturas, PCAP)
+- `reports/` — Informe técnico final en PDF
+- `scripts/` — Scripts de automatización
 
-# |---|---|
+## 👤 Autor
 
-# | Máquina auditora | Kali Linux |
+**Yensi Jesús González Nova**
+Soporte Técnico IT | Analista de Ciberseguridad | IAM Junior
+CompTIA Security+ (SY0-701)
 
-# | Máquina objetivo | Metasploitable 2 |
-
-# | Red de laboratorio | 10.99.99.0/24 |
-
-# | Kali | 10.99.99.10 |
-
-# | Metasploitable 2 | 10.99.99.20 |
-
-# | Virtualización | VMware Workstation |
-
-# | Aislamiento | VMnet2 (Host-only) |
-
-# 
-
-# \## Estructura
-
-# 
-
-# \- `docs/`: Alcance, RoE y documentación del laboratorio
-
-# \- `evidence/nmap/`: Resultados de escaneos Nmap
-
-# \- `evidence/pcap/`: Capturas de tráfico autorizadas
-
-# \- `reports/`: Informes técnicos y ejecutivos
-
-# \- `scripts/`: Scripts propios usados en el laboratorio
-
-# 
-
-# \## Seguridad y autorización
-
-# 
-
-# Este repositorio documenta únicamente actividades realizadas en un entorno controlado y autorizado. No se realizan pruebas contra infraestructura externa, redes reales ni sistemas de terceros.
-
-# 
-
-# Consulta \[las reglas de enfrentamiento](docs/01-alcance-y-reglas.md) antes de continuar.
-
+🔗 [LinkedIn](https://linkedin.com/in/yensinova/)
