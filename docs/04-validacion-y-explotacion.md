@@ -28,13 +28,13 @@ aislado. No se instalaron persistencias ni se modificaron configuraciones.
 
 \## 3. Evidencias
 
-\* \[Figura 6: Nmap NSE ftp-vsftpd-backdoor – VULNERABLE, CVE-2011-2523 (State: Exploitable)](../evidence/screenshots/06-nmap-vsftpd-backdoor-check.png)
+\* [Figura 6: Nmap NSE ftp-vsftpd-backdoor – VULNERABLE, CVE-2011-2523 (State: Exploitable)](../evidence/screenshots/06-nmap-vsftpd-backdoor-check.png)
 
-\* \[Figura 7: Explotación manual vsftpd 2.3.4 – trigger ":)" y shell root en puerto 6200 (id, whoami, uname -a)](../evidence/screenshots/07-vsftpd-manual-root.png)
+\* [Figura 7: Explotación manual vsftpd 2.3.4 – trigger ":)" y shell root en puerto 6200 (id, whoami, uname -a)](../evidence/screenshots/07-vsftpd-manual-root.png)
 
-\* \[Figura 8: Metasploit exploit/multi/samba/usermap\_script – sesión command shell como root](../evidence/screenshots/08-samba-metasploit-root.png)
+\* [Figura 8: Metasploit exploit/multi/samba/usermap\_script – sesión command shell como root](../evidence/screenshots/08-samba-metasploit-root.png)
 
-\* \[Figura 9: Verificación post-remediación – puerto 21 abierto (servicio base) y 6200 Connection refused (backdoor eliminada)](../evidence/screenshots/09-post-remediacion-6200-cerrado.png)
+\* [Figura 9: Verificación post-remediación – puerto 21 abierto (servicio base) y 6200 Connection refused (backdoor eliminada)](../evidence/screenshots/09-post-remediacion-6200-cerrado.png)
 
 
 
