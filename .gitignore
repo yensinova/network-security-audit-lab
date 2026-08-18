@@ -1,0 +1,18 @@
+# Evidencias sensibles
+*.pcap
+*.pcapng
+*.raw
+*.shadow
+*.hash
+
+# Máquinas virtuales
+*.vmdk
+*.ova
+*.vdi
+*.vbox
+
+# Credenciales
+*.pem
+*.key
+secrets/
+credentials.txt
